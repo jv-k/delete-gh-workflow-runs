@@ -1,6 +1,6 @@
 {
   "name": "delete-workflow-runs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "bin": "./delete-workflow-runs.sh",
   "homepage": "https://github.com/jv-k/delete-workflow-runs",
