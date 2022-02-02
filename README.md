@@ -16,7 +16,7 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor)
     $ npm i -g delete-workflow-runs
     ```
 
-3. Navigate to the directoy of the repository that you wish to delete workflow runs from, then run:
+3. Navigate to the directory of the repository that you wish to delete workflow runs from, then run:
     ```sh
     $ delete-workflow-runs
     ```
