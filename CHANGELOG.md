@@ -1,3 +1,8 @@
+## 1.0.3 (February 03, 2022)
+- Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.2 –> 1.0.3
+- Updated docs - moved description to the top
+- Merge pull request #2 from jv-k/release-1.0.2
+
 ## 1.0.2 (February 02, 2022)
 - Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.1 –> 1.0.2
 - docs: Added demo GIF screenshot + minor text edit
