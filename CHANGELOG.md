@@ -1,3 +1,9 @@
+## 1.0.4 (February 03, 2022)
+- Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.3 –> 1.0.4
+- Updated docs - add contributing + license blurb
+- Updated docs - clarified description
+- Merge branch 'release-1.0.3' into main
+
 ## 1.0.3 (February 03, 2022)
 - Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.2 –> 1.0.3
 - Updated docs - moved description to the top
