@@ -1,12 +1,10 @@
 # ▶️👉🏻🗑 Delete Workflow Runs 
 
-![](demo.gif)
-
-## Description
-
 This npm module can be used to easily delete unneeded GitHub Workflow runs from your GitHub remote repository. You can select multiple entries to be deleted at once easily from a navigable list.
 
-It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor)
+It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
+
+![](demo.gif)
 
 ## QuickStart
 
