@@ -29,7 +29,7 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
 5. Press `<enter>` to delete the runs from your GitHub remote.
 
 ## Contributing
-I'd love you to contribute to `@jv-k/delete-workflow-runs`, [pull requests](https://github.com/jv-k/ver-bump/issues/new/choose) are welcome for submitting issues and bugs!
+I'd love you to contribute to `@jv-k/delete-workflow-runs`, [pull requests](https://github.com/jv-k/delete-workflow-runs/issues/new/choose) are welcome for submitting issues and bugs!
 
 ## License
-The scripts and documentation in this project are released under the [MIT license](https://github.com/jv-k/ver-bump/blob/master/LICENSE).
+The scripts and documentation in this project are released under the [MIT license](https://github.com/jv-k/delete-workflow-runs/blob/master/LICENSE).
