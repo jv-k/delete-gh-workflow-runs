@@ -1,3 +1,7 @@
+## 1.0.5 (February 03, 2022)
+- Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.4 –> 1.0.5
+- docs: Fixed contrib + license links
+
 ## 1.0.4 (February 03, 2022)
 - Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.3 –> 1.0.4
 - Updated docs - add contributing + license blurb
