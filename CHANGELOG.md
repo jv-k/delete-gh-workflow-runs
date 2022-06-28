@@ -1,3 +1,8 @@
+## 1.0.6 (June 28, 2022)
+- chore: updated package.json, updated package-lock.json, updated CHANGELOG.md, bumped 1.0.5 -> 1.0.6
+- docs: update project description
+- Merge branch 'release-1.0.5' into main
+
 ## 1.0.5 (February 03, 2022)
 - Updated package.json, Updated package-lock.json, Updated CHANGELOG.md, Bumped 1.0.4 –> 1.0.5
 - docs: Fixed contrib + license links
