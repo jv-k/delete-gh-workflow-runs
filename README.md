@@ -1,6 +1,6 @@
 # ▶️ 👉🏻 🗑 Delete Workflow Runs 
 
-Easily delete unneeded GitHub Workflow runs from your GitHub remote repository. 
+Easily mass-delete GitHub Workflow runs from your GitHub remote repository via the command line.
 
 Conventiently select multiple entries to be deleted at once from a navigable list.
 
