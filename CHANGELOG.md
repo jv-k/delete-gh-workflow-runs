@@ -1,3 +1,9 @@
+## 1.0.7 (December 23, 2022)
+- chore: updated package.json, updated package-lock.json, updated CHANGELOG.md, bumped 1.0.6 -> 1.0.7
+- Merge pull request #4 from ntno/add-prereq
+- add fzf prerequisite
+- merge pull request #3 from jv-k/release-1.0.6
+
 ## 1.0.6 (June 28, 2022)
 - chore: updated package.json, updated package-lock.json, updated CHANGELOG.md, bumped 1.0.5 -> 1.0.6
 - docs: update project description
