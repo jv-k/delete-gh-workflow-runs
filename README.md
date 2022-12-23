@@ -10,9 +10,9 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
 
 ## QuickStart
 
-1. Install pre-requisites [GitHub CLI](https://github.com/cli/cli) and [jq](https://github.com/stedolan/jq), for example on `MacOS`:
+1. Install pre-requisites [GitHub CLI](https://github.com/cli/cli), [jq](https://github.com/stedolan/jq), and [fzf](https://github.com/junegunn/fzf) for example on `MacOS`:
     ```sh
-    $ brew install gh jq
+    $ brew install gh jq fzf
     ```
 
 2. Install `delete-workflow-runs` globally:
