@@ -38,20 +38,17 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
    ```sh
    $ make install
    ```
-3. Authenticate to GitHub
+3. Authenticate to GitHub (skip if using GH_TOKEN from environment)
    ```sh
    $ gh auth login
    ```
-4. Clone your repository where you wish to delete workflow runs from
-   ```sh
-   $ cd /usr/src
-   $ git clone YOUR_REPO
-   ```
-5. Navigate to the directory of the repository, then run:
+4. Run the following where REPO_NAME includes your username or org name (ex: `jv-k/delete-workflow-runs`):
     ```sh
-    $ cd /usr/src/YOUR_REPO
-    $ delete-workflow-runs
+    $ delete-workflow-runs REPO_NAME
     ```
+5. Use the `<up>` and `<down>` keys to navigate the list of workflow runs, and select the ones to be deleted with `<tab>`.
+
+6. Press `<enter>` to delete the runs from your GitHub remote.
 
 
 ## Contributing

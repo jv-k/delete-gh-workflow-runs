@@ -6,3 +6,5 @@ services:
     volumes:
       - $PWD:/usr/src/delete-gh-workflow-runs
     working_dir: /usr/src/delete-gh-workflow-runs
+    environment:
+      GH_TOKEN: $GH_TOKEN
