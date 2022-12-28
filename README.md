@@ -28,7 +28,7 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
 
 5. Press `<enter>` to delete the runs from your GitHub remote.
 
-### Docker Quickstart
+## Docker Quickstart
 
 1. Start Docker container
    ```sh
@@ -38,7 +38,7 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
    ```sh
    $ make install
    ```
-3. Authenticate to GitHub (skip if using GH_TOKEN from environment)
+3. Authenticate to GitHub (skip if using `GH_TOKEN` from environment)
    ```sh
    $ gh auth login
    ```
