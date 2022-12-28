@@ -28,6 +28,32 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
 
 5. Press `<enter>` to delete the runs from your GitHub remote.
 
+### Docker Quickstart
+
+1. Start Docker container
+   ```sh
+   $ make start-docker
+   ```
+2. Install `delete-workflow-runs`
+   ```sh
+   $ make install
+   ```
+3. Authenticate to GitHub
+   ```sh
+   $ gh auth login
+   ```
+4. Clone your repository where you wish to delete workflow runs from
+   ```sh
+   $ cd /usr/src
+   $ git clone YOUR_REPO
+   ```
+5. Navigate to the directory of the repository, then run:
+    ```sh
+    $ cd /usr/src/YOUR_REPO
+    $ delete-workflow-runs
+    ```
+
+
 ## Contributing
 I'd love you to contribute to `@jv-k/delete-workflow-runs`, [pull requests](https://github.com/jv-k/delete-workflow-runs/issues/new/choose) are welcome for submitting issues and bugs!
 
