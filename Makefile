@@ -5,9 +5,10 @@
 start-docker: 
 	docker compose run --entrypoint "/bin/bash" --rm demo --login
 
-#####################################################################
-## run from debian machine or container with node (ex: node:18-bullseye)
-######################################################################
+##########################################################
+## run from debian machine or container 
+## requires node/npm (ex: node:18-bullseye container)
+##########################################################
 install: install-misc install-gh
 	npm i -g delete-workflow-runs
 
