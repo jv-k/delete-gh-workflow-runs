@@ -16,17 +16,22 @@ It uses the GitHub API, and requires gh (GitHub CLI) and jq (JSON processor).
     ```
 
 2. Install `delete-workflow-runs` globally:
-    ```shh
+    ```sh
     $ npm i -g delete-workflow-runs
     ```
+3. Authenticate to GitHub via `gh` client:
+    ```sh
+    $ gh auth login
+    ```
+    Follow the prompts in the terminal wizard to authenticate.
 
-3. Navigate to the directory of the repository that you wish to delete workflow runs from, then run:
+4. Navigate to the directory of the repository that you wish to delete workflow runs from, then run:
     ```sh
     $ delete-workflow-runs
     ```
-4. Use the `<up>` and `<down>` keys to navigate the list of workflow runs, and select the ones to be deleted with `<tab>`.
+5. Use the `<up>` and `<down>` keys to navigate the list of workflow runs, and select the ones to be deleted with `<tab>`.
 
-5. Press `<enter>` to delete the runs from your GitHub remote.
+6. Press `<enter>` to delete the runs from your GitHub remote.
 
 ## Contributing
 I'd love you to contribute to `@jv-k/delete-workflow-runs`, [pull requests](https://github.com/jv-k/delete-workflow-runs/issues/new/choose) are welcome for submitting issues and bugs!
